@@ -1,0 +1,70 @@
+<!-- This is the extension html page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EasySearch</title>
+     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> 
+     <link href="https://fonts.googleapis.com/css?family=Muli|Roboto" rel="stylesheet">
+    <script src="jquery.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+<style type="text/css">
+
+
+div#preloader { position: fixed; left: 0; top: 0; z-index: 999; opacity: 0.4; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
+
+
+  a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s linear;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 6px;
+  }
+  a:hover{
+    color: brown;
+  }
+  #card{
+    
+    background-color: #e6f2ff;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    margin: 6px;
+    transition: all 0.1s linear;
+  }
+  #card_container{
+    background-color: #b3b3cc;
+    padding:-5px;
+    border: 1px solid #ddd;
+    width: 400px;
+  }
+  #card:hover{
+    background-color: #99ccff;
+  }
+  #header{
+    color: brown;
+    margin-bottom: -13px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #snippet{
+    color: #555;
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+  }
+
+</style>
+
+</head>
+<body>
+<div id="card_container">
+<center><h1 style="color: black;">Similar Sites loading </h1></center>
+<div style="height:120px;">
+<div id="preloader"></div></div>
+</div>
+</body>
+</html>
